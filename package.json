@@ -36,6 +36,7 @@
     "labrador-immutable": "^0.6.0",
     "labrador-redux": "^0.1.1",
     "labrador-storage": "^0.1.0",
+    "node-sass": "^4.7.2",
     "redux": "^3.6.0",
     "redux-actions": "^1.2.1",
     "redux-logger": "^2.8.1",

@@ -1,14 +1,29 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/index/finished",
-    "pages/ui/index"
+    "pages/nba_images/random",
+    "pages/nba_games/index"
   ],
   "window": {
-    "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#515151",
-    "navigationBarTitleText": "TODO LIST",
-    "navigationBarTextStyle": "white",
-    "enablePullDownRefresh": true
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#006BB6",
+    "navigationBarTitleText": "NBA篮球新鲜事",
+    "navigationBarTextStyle":"#FFF"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#fff",
+    "backgroundColor": "#006BB6",
+    "borderStyle": "white",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/nba_images/random",
+        "text": "动图"
+      },
+      {
+        "pagePath": "pages/nba_games/index",
+        "text": "赛程"
+      }
+    ]
   }
 }

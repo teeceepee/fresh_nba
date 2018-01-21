@@ -1,0 +1,9 @@
+<view class="page">
+  <image
+    class="img"
+    src="{{state.imageUrl}}"
+    mode="widthFix"
+  />
+
+  <button class="btn" catchtap="handleClick">点我一下，下一张更有意思 ^_^</button>
+</view>
