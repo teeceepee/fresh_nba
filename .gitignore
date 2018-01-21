@@ -39,5 +39,4 @@ jspm_packages
 .idea/
 .build/
 dist/
-yarn.lock
 .DS_Store
